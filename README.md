@@ -18,4 +18,4 @@ RewriteBase /~sehu14/phpmvc/kmom10/webroot/
 to:
 ```
 # RewriteBase /~sehu14/phpmvc/kmom10/webroot/
-``
+
