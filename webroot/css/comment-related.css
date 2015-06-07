@@ -1,0 +1,457 @@
+/**
+ * Style for comment system forms
+ */
+div.center-form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: auto;
+
+}
+
+div.center-form label {
+    padding-left: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+div.center-form input[type=text] {
+    font-size          : 12px;
+    width              : 40%;
+    height             : 14px;
+}
+
+div.center-form input[type=submit] {
+    font-size          : 20px;
+    background-color: #00892B;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    cursor:pointer;
+}
+
+div.center-form textarea {
+    font-size          : 12px;
+    width              : 400px;
+    height             : 200px;
+}
+
+div.center-form fieldset{
+    font-size          : 14px;
+    border: none;
+
+
+}
+
+.comment-form {
+    padding-top        : 15px;
+}
+
+
+li.post {
+    clear              : both;
+    padding            : 10px 0;
+    list-style         : none;
+    margin-bottom      : 10px;
+    margin-top         : 10px;
+
+}
+
+.add-comment {
+    font-size          : 1.5em;
+    clear              : both;
+    padding-top        : 20px;
+    padding-bottom     : 10px;
+    width: 960px;
+}
+
+.answers {
+    margin: 0px;
+    padding: 0px;
+}
+.post-wrapper {
+    clear              : both;
+    padding            : 10px 0;
+    list-style         : none;
+    min-height         : 60px;
+    margin-bottom      : 5px;
+    margin-top         : 5px;
+    padding-left       : 10px;
+    overflow           : hidden;
+    box-shadow: 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+    border-top-left-radius: 2.5em;
+    border-bottom-right-radius: 3em;
+    width: 948px;
+}
+
+.post-body {
+    min-height         : 60px;
+    width              : 650px;
+    float              : left;
+    font-size          : 18px;
+}
+
+.avatar {
+    width              : 65px;
+    height             : 65px;
+    margin-right       : 10px;
+    float              : left;
+    margin-top: 1px;
+    margin-bottom: 15px;
+}
+
+/* Style for header part of comments, name of the question etc */
+.post-header {
+    color              : black;
+
+}
+
+.post-title {
+    font-size          : 35px;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    letter-spacing: -1px;
+    color: #000;
+    line-height: 24px;
+}
+
+.post-title a {
+    color: black;
+}
+
+.post-content {
+    font-size          : 15px;
+    color: #595959;
+}
+
+.post-content p{
+    text-align: left;
+}
+
+.who-posted {
+    color: black;
+    font-size: 14px;
+}
+.post-tags {
+    font-size          : 12px;
+    margin-top         : 2px;
+    color              : #000;
+
+}
+
+.post-tags a {
+    text-decoration    : none;
+    color              : #000;
+}
+
+.tag {
+    padding            : 0 5px;
+    margin-right       : 5px;
+    line-height        : 15px;
+    font-size          : 16px;
+}
+
+/* Style for top users and new posts */
+.top-stats {
+    padding            : 0 5px;
+    margin-right       : 5px;
+    line-height        : 5px;
+    font-size          : 16px;
+}
+
+.tag, .top-stats{
+    background-color: #bfbfbf; 
+    height: 30px;
+    width: 245px;
+    margin: 5px;
+    line-height: 30px;
+    display: inline-block;
+    border-radius: 4px;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+}
+
+.tag:before, .top-stats:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #2098d1;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.tag:hover:before, .tag:focus:before, .tag:active:before, .top-stats:hover:before, .top-stats:focus:before, .top-stats:active:before{
+    right: 0;
+
+}
+
+.tag a, .top-stats a {
+    text-decoration    : none;
+    color              : #000;
+    font-weight        : 100;
+
+}
+.tag a:hover, .top-stats a:hover {
+
+}  
+
+.post-footer {
+    color              : gray;
+    font-size          : 12px;
+}
+
+.backb{
+    margin-top: -45px;
+}
+
+input[type=checkbox]{
+    width: 28px;
+    height: 28px;
+    background: #fcfff4;
+
+    background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -o-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -ms-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 );
+    margin: 20px auto;
+    float:left;
+    position: relative;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    left: 410px;
+    top:-5px;
+
+}
+
+input[type=checkbox] label{
+    
+    cursor: pointer;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 4px;
+    top: 4px;
+
+    -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,1);
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,1);
+
+    background: -webkit-linear-gradient(top, #222 0%, #45484d 100%);
+    background: -moz-linear-gradient(top, #222 0%, #45484d 100%);
+    background: -o-linear-gradient(top, #222 0%, #45484d 100%);
+    background: -ms-linear-gradient(top, #222 0%, #45484d 100%);
+    background: linear-gradient(top, #222 0%, #45484d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222', endColorstr='#45484d',GradientType=0 );
+}
+
+label[for=form-element-comment], label[for=form-element-title]{
+    font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+    font-weight: normal;
+    font-size: 1.75em;
+    letter-spacing: .2em;
+    line-height: 1.1em;
+    margin:0px;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 26px;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+#form-element-comment{
+    background-color: #e9e9e9;
+    font-size: 24px;
+    width: 948px;
+    margin-left: -8px;
+    resize: none;
+}
+
+#form-element-submit{
+    font-size: 27px;
+    background-color: #999 !important;
+    color: white;
+    padding: 4px;
+    margin-left: 4px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 55px;
+    border-radius: 2px !important;
+    font-family: sans-serif;
+    display: block;
+    margin-left: -8px;
+    width: 955px;
+    height: 55px;
+}
+
+#form-element-submit:hover{
+    background-color: #bfbfbf;
+}
+
+
+
+span.create-button-big{
+    font-size: 27px;
+    background-color: #999;
+    color: white;
+    padding: 4px;
+    border-radius: 0px;
+    margin-left: 4px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 55px;
+    border-radius: 2px;
+    font-family: sans-serif;
+    display: block;
+    width: auto;
+    height: 55px;
+}
+
+span.create-button-big:hover{
+    background-color: #bfbfbf;
+}
+
+/* Style for create-button effect */
+span.create-button {
+    background-color: #999;
+    color: white;
+    padding: 4px;
+    border-radius: 0px;
+    margin-left: 4px;
+
+}
+
+span.create-button a {
+    color: white;
+    padding: 4px;
+}
+
+span.create-button a:hover {
+    text-decoration: none;
+}
+
+span.create-button:hover {
+    background-color: #bfbfbf;
+}
+
+.strike {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.strike > span {
+    position: relative;
+    display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+    content: "";
+    position: absolute;
+    top: 66%;
+    width: 9999px;
+    /* Here is the modification */
+    height: 0.1px; /* space between lines */
+    margin-top: -11px; /* adjust vertical align */
+    border-top: 1px solid #fff;
+    -webkit-box-shadow: 0px 8px 1px 0px rgba(50, 50, 50, 0.51);
+    -moz-box-shadow:    0px 8px 1px 0px rgba(50, 50, 50, 0.51);
+    box-shadow:         0px 8px 1px 0px rgba(50, 50, 50, 0.51);
+}
+
+.strike > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+.hranswer{
+    font-size: 11px;
+    font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+    font-weight: normal;
+    font-size: 1.75em;
+    letter-spacing: .4em;
+    line-height: 1.1em;
+    margin:0px;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px;
+    margin-top: 15px;
+}
+// vertical variation
+
+.or-spacer-vertical {
+    display:inline-block;
+    margin-top:100px; margin-left:100px; width:100px; 
+    position:relative; 
+
+    .mask { 
+        overflow:hidden; width:20px; height:200px; 
+        //outline:1px solid pink;
+    }
+    &.left .mask:after { 
+        content:''; 
+        display:block; margin-left:-20px;
+        width:20px; height:100%;  
+        border-radius:12px / 125px;  
+        box-shadow:0 0 8px black;
+    }
+    &.right .mask:before { 
+        content:''; 
+        display:block; margin-left:20px;
+        width:20px; height:100%; 
+        border-radius:12px / 125px; 
+        box-shadow:0 0 8px black;
+    }
+}
+
+/* Style for seperator */
+div.seperator {
+    display: block;
+    padding: 3px 0;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-radius: 3px;
+    width: 97%;
+    background-color: #bfbfbf;
+    height: 1px;
+    box-shadow: 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+}
+
+

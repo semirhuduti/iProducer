@@ -1,0 +1,74 @@
+html {
+	background            : url(../img/notes.jpg) no-repeat;
+	background-attachment : fixed;
+	background-size       : auto;
+	background-size       : cover;
+	background-repeat     : no-repeat;
+	background-position   : center center;
+}
+
+label {
+	visibility            : hidden;
+	font-size             : 0px;
+	max-height            : 0px;
+}
+
+#main {
+    text-align: center;
+	//margin-left           : 0px;
+	//width                 : 400px;
+}
+
+.cf-desc{
+    margin-top: -5px;
+}
+.buttonbar{
+    height: 30px;
+}
+
+#form-element-login, #form-element-submit, .additionalbutton {
+  height:40px;
+  width:250px;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 0px solid;
+  box-sizing:border-box;
+  padding:10px;
+  margin-bottom:30px;
+  background:#555;
+  color:#FFF;
+  font-weight:bold;
+  font-size: 12pt;
+  transition:background .4s;
+  cursor:pointer;
+}
+
+#form-element-login:hover, #form-element-submit:hover, .additionalbutton:hover{
+  background:#aaa;
+  
+}
+
+.additionalbutton{
+    margin-left: -1%;
+}
+
+#form-element-acronym, #form-element-password{
+    width: 249px;
+    margin-left: -9px;
+    height: 40px;
+    border-radius:3px;
+    font-size: 20px;
+    border: 1px solid #6297BC;
+    text-align: center;
+}
+
+
+#sitetitle {
+top                   : 6px;
+left                  : 130px;
+font-size             : 48px;
+font-weight           : bold;
+}
+
+fieldset {
+    border: 0px;
+}

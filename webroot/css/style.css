@@ -1,0 +1,194 @@
+/**
+ * General elements
+ */
+html {
+    background            : url(../img/notes.jpg) no-repeat;
+    background-attachment : fixed;
+    background-size       : auto;
+    background-size       : cover;
+    background-repeat     : no-repeat;
+    background-position   : center center;
+
+
+}
+
+
+body {
+    font-family           : ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+    line-height           : 1.5;
+}
+
+h2, h3, p{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h3, h1{
+    font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+    font-weight: normal;
+    font-size: 1.75em;
+    letter-spacing: .2em;
+    line-height: 1.1em;
+    margin:0px;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+    margin-top: 15px;
+
+
+}
+
+.navigationfixed{
+    margin-top: -10px;
+    position: fixed;
+    background-color: white;
+    z-index: 5;
+}
+
+#wrapper {
+    margin-left           : auto;
+    margin-right          : auto;
+    width                 : 960px;
+    background-color      : white;
+    border-radius         : 5px;
+    border: 1px solid #999;
+    padding               : 10px;
+    margin-top            : -12px;
+
+}
+
+h1 {
+    font-size             : 2.2em;
+}
+
+a {
+    color                 : white;
+    text-decoration       : none;
+}
+
+a:hover {
+    color: #999
+}
+
+/* Style for <hr> above footer */
+hr.style-two {
+    border                : 0;
+    height                : 1px;
+    background-image      : -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image      : -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image      : -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image      : -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+/* Style for <hr> under navbar */
+hr.style-four {
+    height                : 12px;
+    border                : 0;
+    box-shadow            : inset 0 12px 12px -12px rgba(0,0,0,0.5);
+    width: 960px;
+    margin-top: 10px;
+    margin-bottom: -4px;
+}
+
+hr.style-five {
+    height                : 12px;
+    border                : 0;
+    box-shadow            : inset 0 -12px 12px -12px rgba(0,0,0,0.5);
+    width: 960px;
+    margin: 0px;
+
+}
+
+img {
+    border-radius         : 50%;
+    -webkit-border-radius : 50%;
+    -moz-border-radius    : 50%;
+}
+
+
+
+#header {
+    margin-top            : 20px;
+    margin-bottom         : 20px;
+}
+
+#footer {
+    bottom                : 0;
+    margin-bottom         : 10px;
+}
+
+
+.sitetitle {
+    position: relative;
+    top: -45px;
+    left                  : 80px;
+    font-size             : 55px;
+    font-family: Verdana;
+    font-weight: normal;
+    letter-spacing: 0.2em;
+    text-shadow: 12px 6px 17px rgba(150, 150, 150, 0.31);
+}
+
+.sitetagline {
+    top                   : 65px;
+    left                  : 150px;
+    margin-left           : 34%;
+    font-style            : normal;
+    color                 : gray;
+    letter-spacing: 0.6em;
+
+}
+
+.sitelogo{
+    height: 15%;
+    width: 15%;
+    margin-left: 10%;
+}
+
+/* Style for font-awesome icons on top lists */
+.tag, .top-stats {
+    color              : #120F0F;
+}
+
+.center-tags{
+    text-align: center;
+}
+
+
+/* Style for wrapper around the top-divs on homepage */
+div.top-wrapper {
+    margin-left: 35px;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+div.top-wrapper h3{
+    font-size: 12px;
+    text-align: center;
+}
+/* Style for the 3 divs (top stats) on the frontpage */
+div.left, div.middle, div.right {
+    width: 270px;
+    height: 220px;
+    display: inline-block;
+    margin-left: 10px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    
+
+}
+div.left p, div.middle p, div.right p, div.far-right p {
+    text-align: left;
+}
+div.left h3, div.middle h3, div.right h3, div.far-right h3 {
+    text-align: left;
+}
+
+div.left, div.middle, div.right, div.far-right {
+    -box-shadow: 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+
+}

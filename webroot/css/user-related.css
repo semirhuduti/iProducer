@@ -1,0 +1,125 @@
+
+/**
+ * Style for user controller
+ */
+
+/* Style for whole wrapper */
+.user-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width              : 50%;
+    overflow           : hidden;
+    margin-bottom      : 30px;
+}
+
+/* Style for individual user */
+.user-individual {
+    width              : 100%;
+    height             : auto;
+    float              : left;
+    padding            : 10px;
+    margin: 10px;
+}
+
+.user-avatar{
+    float:none;
+    width: 500px;
+    display: inline;
+    margin-left: 175px;
+}
+
+.user-avatar img{
+    width: 100px;
+    height: 100px;
+}
+
+/* Style for user link text */
+.user-individual a {
+    text-decoration    : none;
+    color              : black;
+}
+
+.user-individual a:hover {
+    text-decoration: underline;
+}
+
+.user-seperator{
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 8px auto;
+    height: 0;
+    width: 100%;
+    max-height: 0;
+    font-size: 1px;
+    line-height: 0;
+    clear: both;
+    border: none;
+    border-top: 1px solid #aaaaaa;
+    border-bottom: 1px solid #ffffff;
+}
+
+.user-info {
+    overflow           : hidden;
+    padding-top        : 5px;
+}
+
+.user-info table{
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+}
+
+fieldset{
+    border: none;
+}
+
+.user-info  tr{
+    width: 100px;
+}
+
+.right-align{
+    text-align: right;
+}
+
+div.profile-wrapper {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+div.profile-wrapper h2, div.profile-wrapper p {
+    text-align: center;
+}
+
+
+div.profile-wrapper a {
+    display: block;
+    text-align: center;
+}
+
+div.profile-wrapper a:hover {
+    text-decoration: underline;
+}
+
+div.profile-wrapper img {
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+}
+
+.profile-table{
+    font-family: sans-serif;
+}
+
+.table-wrapper{
+
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 363px; 
+}
+

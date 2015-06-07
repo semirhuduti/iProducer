@@ -1,0 +1,82 @@
+/**
+* Based on http  : //dbwebb.se/coachen/en-navbar-med-drop-down-meny-i-ren-html-och-css
+ * Changed to only style li-items instead of a.
+ */
+
+ /* BR-BA green = #00892B */
+#navbar {
+ 
+}
+
+.navbar {
+}
+ 
+.navbar ul {
+list-style       : none;
+margin           : 0;
+padding          : 0;
+}
+ 
+.navbar li {
+display          : inline-block;
+color            : #333;
+position         : relative;
+}
+ 
+.navbar a {
+display          : block;
+padding          : 0.75em;
+text-decoration  : none;
+color            : inherit;
+white-space      : nowrap;
+font-family      : verdana;
+
+}
+
+.navbar a:hover {
+text-decoration  : none;
+}
+
+.navbar li:hover {
+color            : #999;
+border-color     : #777;
+} 
+ 
+.navbar li.selected-parent, 
+.navbar li.selected {
+color            : #000;
+border-color     : #000;
+}
+
+.navbar ul ul {
+background-color : white;
+padding          : 2px 6px 2px 0;
+position         : absolute;
+left             : -9999px;
+z-index          : 2;
+border-radius    : 5px;
+
+-box-shadow: 0px 0px 10px 0px rgba(119, 119, 119, 0.44);
+-moz-box-shadow: 0px 0px 10px 0px rgba(119, 119, 119, 0.44);
+-webkit-box-shadow: 0px 0px 10px 0px rgba(119, 119, 119, 0.44);
+  }
+ 
+.navbar li li {
+width            : 100%;
+border-top       : none;
+border-left      : 4px solid transparent;
+}
+
+.navbar li:hover ul {
+left             : 0;
+}
+ 
+.navbar li li:hover {
+color            : #777;
+border-color     : #777;
+}
+
+.navbar li li.selected {
+color            : #777;
+border-color     : #777;
+}
